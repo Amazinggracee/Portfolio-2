@@ -1,7 +1,7 @@
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Portfolio-2 README Template</b></h3>
