@@ -1,0 +1,396 @@
+/* -------------------colors used in this project------------------ */
+
+:root {
+  --lightgrey: #dbd8d7;
+  --medium-grey: #acb7c3;
+  --white: #fff;
+  --light-color: #666;
+  --orange: #ff6b00;
+  --orange2: #f55800;
+  --orange3: #9a3a03;
+  --white2: #fff5e1;
+  --navy-blue: #091e42;
+  --navy-blue2: #172b4d;
+  --medium-grey2: #8993a4;
+  --grey: #3c3a39;
+  --dark: #1c1a19;
+  --coffee: #212121;
+  --grey2: #5b5957;
+}
+
+/* -------------------------------styling Nav----------------------------- */
+
+.navbar #collapsibleNavbar .navbar-nav {
+  margin-left: 60%;
+}
+
+/* -----------------------------styling Headline----------------------------- */
+
+#sml-scr {
+  background: var(--dark);
+  background-image: url("./Images/Illustration.png");
+  background-position: right bottom;
+  background-size: 70px;
+  background-repeat: no-repeat;
+  margin-top: 0;
+}
+
+#sml-scr #ntro-me h1 {
+  margin-top: 200px;
+}
+
+/* ----------------------------Styling Works---------------------------------- */
+
+#smal-dis {
+  display: none;
+}
+
+#dis-bg {
+  width: 100%;
+  height: 500px;
+  background: url(./Images/Img\ Placeholder.png);
+  flex: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  order: 0;
+  flex-grow: 0;
+}
+
+.btn {
+  background: var(--orange3);
+}
+
+/* .btn:hover {
+    background: var(--white);
+    color: var(--orange3);
+}
+
+.btn:disabled {
+    background: var(--grey);
+    color: var(--dark);
+} */
+
+/* ------------------------------Styling Professional Section------------------- */
+
+#pro-sml-scr {
+  width: 100%;
+}
+
+.pro-sec {
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  background: var(--white);
+}
+
+#pro-1 {
+  background-image: url(./Images/Mask\ Group.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 386px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 0;
+}
+
+#btn-10 {
+  width: 100%;
+  margin-top: 350px;
+}
+
+#pro-2 {
+  background-image: url(./Images/Img\ Placeholder4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 386px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 0;
+  margin-right: 20px;
+}
+
+#pro-h3 {
+  margin-top: 180px;
+  margin-left: 20px;
+}
+
+#pro-p {
+  margin-left: 20px;
+}
+
+#pro-3 {
+  background-image: url(./Images/Img\ Placeholder5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 386px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 0;
+}
+
+#pro-4 {
+  background-image: url(./Images/Img\ Placeholder2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 386px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 0;
+}
+
+/* ----------------------------------Styling About Section------------------------ */
+
+#abt-sml-scr2 {
+  display: none;
+}
+
+#abt-sml-scr1 {
+  display: block;
+  background: var(--dark);
+  background-image: url("./Images/illustration-about-me-mobile.png");
+  background-position: right bottom;
+  background-size: 150px;
+  background-repeat: no-repeat;
+  height: 600px;
+  border-bottom: 1px solid var(--light-color);
+}
+
+#abt-sml-scr1 h3 {
+  font-size: 35px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#abt-sml-scr1 .btn {
+  margin-top: 80px;
+}
+
+/* ----------------------------Styling Contact--------------------------------- */
+
+#con-fom {
+  margin-top: 50px;
+  border-bottom: 1px solid var(--dark);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  width: auto;
+  gap: 12px;
+  justify-content: space-around;
+  margin-right: 30px;
+}
+
+form input {
+  border-bottom: 1px solid var(--grey2);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  height: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.dis-input {
+  display: none;
+}
+
+textarea {
+  height: 114px;
+  width: 327px;
+  border: none;
+  left: 12px;
+  top: 12px;
+  font-size: 18px;
+  text-align: start;
+  color: var(--medium-grey2);
+}
+
+#get-t {
+  width: 150px;
+  margin-left: 70px;
+}
+
+/* -------------------------------------Media Query---------------------------- */
+
+@media (min-width: 768px) {
+  #sml-scr {
+    display: flex;
+    flex-direction: row-reverse;
+    background-image: url("./Images/Illustration-header.png");
+    background-position: right center;
+    background-size: 300px;
+    background-repeat: no-repeat;
+  }
+
+  #intro-me {
+    width: 50%;
+    margin-right: 40%;
+    text-align: left;
+  }
+
+  #socila-hand {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+  }
+
+  /* --------------------Works Media Query------------------------------ */
+
+  #big-dis {
+    display: none;
+  }
+
+  #smal-dis {
+    display: inline;
+  }
+
+  .inline-h h2 {
+    display: inline;
+  }
+
+  #dis-bg {
+    display: none;
+  }
+
+  #wk-sml-scr {
+    background-image: url(./Images/Img\ Placeholder.png);
+    background-position: left bottom;
+    background-size: 45% 65%;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #big-right {
+    width: 50%;
+    margin-left: 50%;
+    margin-top: 70px;
+  }
+
+  /* ---------------------------Query for Professional--------------------- */
+
+  #pro-row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #pro-h3 {
+    margin-top: 120px;
+    margin-left: 20px;
+  }
+
+  #pro-4 h3 {
+    margin-top: 100px;
+  }
+
+  /* ----------------------Query for About-------------------------- */
+
+  #abt-sml-scr1 {
+    display: none;
+  }
+
+  #abt-sml-scr2 {
+    display: block;
+    background-color: var(--dark);
+    background-image: url("./Images/illustration-about\ me@2x.png");
+    background-position: right center;
+    background-size: 50% 40%;
+    background-repeat: no-repeat;
+    text-align: left;
+    height: 500px;
+  }
+
+  #abt-sml-scr2 h3 {
+    width: 50%;
+    text-align: left;
+    margin: 50px;
+  }
+
+  #abt-sml-scr2 p {
+    width: 50%;
+    text-align: left;
+    margin: 50px;
+  }
+
+  #abt-sml-scr2 .btn {
+    margin: 50px;
+  }
+
+  /* ----------------------------Media Query for Languages--------------------- */
+
+  #abt-sml-scr {
+    display: flex;
+    gap: 70px;
+  }
+
+  #last-born {
+    margin-left: 50px;
+  }
+
+  /* ------------------------Query for Contact--------------------------- */
+
+  #con-fom {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #con-fom h3 {
+    margin-top: 60px;
+  }
+
+  form {
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+    gap: 8px;
+    justify-content: space-around;
+    padding: 20px;
+  }
+
+  form input {
+    border-bottom: 1px solid var(--grey2);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+
+  .sm-app {
+    display: none;
+  }
+
+  form .dis-input {
+    display: inline;
+    width: 47%;
+  }
+
+  textarea {
+    height: 114px;
+    width: 327px;
+    border: none;
+    left: 12px;
+    top: 12px;
+    font-size: 18px;
+    text-align: start;
+    color: var(--medium-grey2);
+  }
+}
