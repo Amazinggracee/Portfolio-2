@@ -1,44 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Amazinggracee Portfolio</title>
-    <link rel="stylesheet" href="./style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-    />
+
+<head>
+    <title>Amazinggracee BS Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-  </head>
-  <body>
+    <link rel="stylesheet" href="./style.css">
+</head>
 
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-
-        <!----------------- logo----------------------- -->
-
+<body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
         <a class="navbar-brand" href="#">Amazinggracee</a>
-        
-        <!--------------------------- Links------------------ -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">about</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
+    <!-- -------------------Section Headline--------- -->
+
+
+    <div title="salutation" class="container-fluid p-3 bg-dark text-white" id="sml-scr">
+        <div id="intro-me">
+            <h1 class="text-warning text-center">Hey dear.
+                I’m Amara. Nice to meet you.</h1>
+            <h3 class="text-center">I’am a Software Developer</h3>
+            <p class="text-center">I can help you build a product ,
+                feature or website Look through some of my work and experience!
+                If you like what you see and have a project you need coded,
+                don’t hestiate to contact me.</p>
+        </div>
+
+        <ul class="d-flex justify-content-around list-unstyled" id="socila-hand">
+            <li><a href="https://github.com/Amazinggracee
+                    " target="_blank"><img title="GitHub" src="./Images/Icon -GitHub.png" alt="GitHub"></a></li>
+            <li><a href="https://www.linkedin.com/in/amarachi-dimkpa-070643183
+                    " target="_blank"><img title="Linkedin" src="./Images/Icon - Linkedin.png" alt="Linkedin"></a></li>
+            <li><a href="#"><img title="Anglelist" src="./Images/Icon - Angelist.png" alt="Angelist"></a></li>
+            <li><a href="https://twitter.com/amazinggraceu" target="_blank"><img title="Twitter"
+                        src="./Images/Icon - Twitter.png" alt="Twitter"></a></li>
+            <li><a href="#"><img title="Medium" src="./Images/Icon - Medium.png" alt="Medium"></a></li>
         </ul>
-        <p class="icon">
-            <i class="fa fa-bars"></i>
-        </p>
-      </nav>
+    </div>
 
-  </body>
+    <!-- ------------------------Section Works------------------------------------ -->
+
+    <div title="Services" class="container-fluid p-3 my-5 bg-light text-dark" id="wk-sml-scr">
+        <div class="inline-h">
+            <h2 class="text-center">My Recent Works
+                <hr class="text-dark" id="smal-dis">
+            </h2>
+            <hr class="text-center text-dark" id="big-dis">
+        </div>
+
+        <div id="dis-bg"></div>
+        <div class="text-dark" id="big-right">
+            <h3>Multi-Post Stories</h3>
+            <p class="justify-content-around">A daily selection of privately personalized reads;
+                no accounts or sign-ups required. has been the industry's standard dummy
+                text ever since the 1500s,
+                when an unknown printer took a standard dummy text.</p>
+
+            <ul class="d-flex justify-content-around list-unstyled">
+                <li class="border p-2 text-center">css</li>
+                <li class="border p-2 text-center">html</li>
+                <li class="border p-2 text-center">bootstrap</li>
+                <li class="border p-2 text-center">Ruby</li>
+            </ul>
+
+            <a href=""><button type="button" class="btn btn-warning text-light">See Project</button></a>
+        </div>
+    </div>
+
+    <!-- ----------------------Professional Section---------------------------- -->
+
+
+    <div class="container-fluid col pro-sec p-3 my-5 d-flex " id="pro-row">
+        <div id="pro-1">
+            <a href=""></a><button id="btn-10" type="button" class="btn btn-warning text-light">See Project</button></a>
+        </div>
+        <div id="pro-2">
+            <h3 id="pro-h3" class="text-light">Data Dashboard Healthcare</h3>
+            <p id="pro-p" class="text-light">A daily selection of privately personalized reads;
+                no accounts or sign-ups required.
+                has been the industry's standard</p>
+
+            <ul class="d-flex justify-content-around list-unstyled text-light">
+                <li class="border p-2 text-center bg-secondary">html</li>
+                <li class="border p-2 text-center bg-secondary">bootstrap</li>
+                <li class="border p-2 text-center bg-secondary">Ruby</li>
+            </ul>
+
+        </div>
+        <div id="pro-3">
+            <h3 id="pro-h3" class="text-light">Website Protfolio </h3>
+            <p id="pro-p" class="text-light">A daily selection of privately personalized reads;
+                no accounts or sign-ups required.
+                has been the industry's standard</p>
+
+            <ul class="d-flex justify-content-around list-unstyled text-light">
+                <li class="border p-2 text-center bg-secondary">html</li>
+                <li class="border p-2 text-center bg-secondary">bootstrap</li>
+                <li class="border p-2 text-center bg-secondary">Ruby</li>
+            </ul>
+        </div>
+    </div>
+    <div class="container-fluid col pro-sec p-3 my-5 d-flex " id="pro-row">
+        <div id="pro-4">
+            <h3 id="pro-h3" class="text-light">Profesional Art Printing Data More</h3>
+            <p id="pro-p" class="text-light">A daily selection of privately personalized reads;
+                no accounts or sign-ups required.
+                has been the industry's standard</p>
+
+            <ul class="d-flex justify-content-around list-unstyled text-light">
+                <li class="border p-2 text-center bg-secondary">html</li>
+                <li class="border p-2 text-center bg-secondary">bootstrap</li>
+                <li class="border p-2 text-center bg-secondary">Ruby</li>
+            </ul>
+        </div>
+        <div id="pro-2">
+            <h3 id="pro-h3" class="text-light">Data Dashboard Healthcare</h3>
+            <p id="pro-p" class="text-light">A daily selection of privately personalized reads;
+                no accounts or sign-ups required.
+                has been the industry's standard</p>
+
+            <ul class="d-flex justify-content-around list-unstyled text-light">
+                <li class="border p-2 text-center bg-secondary">html</li>
+                <li class="border p-2 text-center bg-secondary">bootstrap</li>
+                <li class="border p-2 text-center bg-secondary">Ruby</li>
+            </ul>
+        </div>
+        <div id="pro-3">
+            <h3 id="pro-h3" class="text-light">Website Protfolio </h3>
+            <p id="pro-p" class="text-light">A daily selection of privately personalized reads;
+                no accounts or sign-ups required.
+                has been the industry's standard</p>
+
+            <ul class="d-flex justify-content-around list-unstyled text-light">
+                <li class="border p-2 text-center bg-secondary">html</li>
+                <li class="border p-2 text-center bg-secondary">bootstrap</li>
+                <li class="border p-2 text-center bg-secondary">Ruby</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ---------------------------------About Section---------------------------- -->
+
+    <div class="container-fluid p-3 bg-dark text-white" id="abt-sml-scr1">
+        <h3 class="text-center text-warning ">About me</h3>
+        <p class="text-center">Hello I’m a software developer! I can help you build a product ,
+            feature or website Look through some of my work and experience!
+            If you like what you see and have a project you need coded,
+            don’t hestiate to contact me.</p>
+
+        <a href=""><button type="button" class="btn btn-warning text-light">See Project</button></a>
+    </div>
+
+    <div class="container-fluid p-3 bg-dark text-white" id="abt-sml-scr2">
+        <h3 class="text-left text-warning ">About me</h3>
+        <p class="text-left">Hello I’m a software developer! I can help you build a product ,
+            feature or website Look through some of my work and experience!
+            If you like what you see and have a project you need coded,
+            don’t hestiate to contact me.</p>
+
+        <a href=""><button type="button" class="btn btn-warning text-light">See Project</button></a>
+    </div>
+
+    <!-- -----------------------------Language Section--------------------------- -->
+
+    <div class="container-fluid p-3 bg-dark text-white text-center" id="abt-sml-scr">
+
+        <dl id="last-born">
+            <dt>
+                <h2 title="Programing Languages"><img src="./Images/Rectangle 55.png" alt="1.0">Language</h2>
+            </dt>
+            <dd>Javascript</dd>
+            <dd>Ruby</dd>
+            <dd>Html</dd>
+            <dd>Css</dd>
+            <dd></dd>
+        </dl>
+
+        <dl>
+            <dt>
+                <h2 title="Frameworks Style"><img src="./Images/square.png" alt="2.0">Frameworks</h2>
+            </dt>
+            <dd>Bootstrap</dd>
+            <dd>Ruby on Rails</dd>
+            <dd>RSPec</dd>
+            <dd>CapyBara</dd>
+            <dd>Selenium</dd>
+        </dl>
+
+        <dl>
+            <dt>
+                <h2 title="Skills to show"><img src="./Images/circle.png" alt="3.0">Skills</h2>
+            </dt>
+            <dd>Codekit</dd>
+            <dd>Github</dd>
+            <dd>Codepen</dd>
+            <dd>Gitlab</dd>
+            <dd>Terminal</dd>
+        </dl>
+    </div>
+
+    <!-- -------------------------Contact Section--------------------------- -->
+
+    <div class="container-fluid p-3 bg-light text-dark text-center" id="con-fom">
+        <h3>I'm always interested in hearing about new projects, 
+            so if you'd like to chat please get in touch.</h3>
+
+            <form action="https://formspree.io/f/maykrgwn" target="_blank" method="POST">
+                <input class="sm-app" input name="fullName" type="text" placeholder="Full Name" maxlength="30" required>
+                <p> <input class="dis-input" name="firstName" type="text" placeholder="Full Name" maxlength="30" required>
+                    <input class="dis-input" input name="lastName" type="text" placeholder="Last Name" maxlength="30"
+                        required>
+                </p>
+    
+                <input name="Email" id="email" type="email" placeholder="Your email" required>
+    
+                <textarea placeholder="textarea" name="message" minlength="10" maxlength="500"
+                    required>Enter text here</textarea>
+    
+                    <button type="submit" class="btn btn-warning text-light text-center" id="get-t">Get in Touch</button>
+                </div>
+            </form>
+    
+    </div>
+
+    <!-- --------------------------Section Footer----------------------- -->
+
+    <ul class="icons dark-icons list-unstyled d-flex justify-content-between p-4">
+        <li><a href="https://github.com/Amazinggracee"><img title="Github" src="./Images/dark git" alt="GitHub"></a></li>
+        <li><a href="https://www.linkedin.com/in/amarachi-dimkpa-070643183"><img title="Linkdin" src="./Images/darkIcon - Linkedin.png" alt="Linkedin"></a></li>
+        <li><a href="#"><img title="Anlglist" src="./Images/darkangellist.png" alt="Angelist"></a></li>
+        <li><a href="https://twitter.com/amazinggraceu"><img title="twitter" src="./Images/darktwitter.png" alt="Twitter"></a></li>
+        <li><a href="#"><img title="Medium" src="./Images/darkmedium.png" alt="Medium"></a></li>
+    </ul>
+
+</body>
+
 </html>
