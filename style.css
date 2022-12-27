@@ -56,7 +56,6 @@
   flex-grow: 0;
 }
 
-<<<<<<< HEAD
 .btn {
   background: var(--orange3);
 }
@@ -222,6 +221,7 @@ textarea {
   width: 150px;
   margin-left: 70px;
 }
+
 /* -------------------------------------Media Query---------------------------- */
 
 @media (min-width: 768px) {
@@ -394,4 +394,3 @@ textarea {
     color: var(--medium-grey2);
   }
 }
-
